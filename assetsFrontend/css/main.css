@@ -1,0 +1,155 @@
+@import url(variable.css);
+
+
+/* ------------->NAVBAR<------------ */
+.navbar{
+  position: fixed;
+  width: 100vw;
+  
+  
+}
+
+
+nav {
+  background: linear-gradient(to right, #69289f, #8d46cf);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: var(--shadow-standart);
+  height: 45px;
+  padding: 0 3rem;
+  
+  
+}
+
+.nav_logo {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: white;
+}
+
+.nav_logo > img {
+  border-radius: 50%;
+  width: 30px;
+}
+
+.nav__kanan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: none;
+}
+
+.nav__list {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none;
+}
+.nav__list li {
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav__list li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 0 0.8rem;
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+  font-size: 13px;
+}
+
+.nav__list li a:hover {
+  border-bottom: 3px solid white;
+  color: rgb(218, 218, 218);
+  transition: all 0.3s ease-in-out;
+}
+
+.nav__active {
+  background-color: var(--transparant-25);
+}
+
+.search {
+  background-color: var(--transparant-25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 6px;
+  border-radius: 3px;
+  color: white;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.search input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: white;
+  
+  
+}
+::-webkit-input-placeholder{
+    color: rgb(182, 182, 182);
+}
+
+.search label {
+  cursor: pointer;
+}
+
+.search__content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.enter__search{
+  border: none;
+  outline: none;
+  background: transparent;
+  color: white;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.nav__ujung {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav__ujung .login {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  font-size: 0.8rem;
+  color: white;
+  background: var(--transparant-25);
+  padding: 5px 10px;
+  border-radius: 2px;
+  transition: var(--transisi-2);
+}
+
+.nav__ujung .login img {
+  border-radius: 50%;
+  width: 22px;
+}
+
+#navToggle{
+    display: block;
+    color:  white;
+    cursor: pointer;
+}
+
+.nav__ujung li .login:hover i{
+  transform: translateX(-5px);
+  transition: var(--transisi-2);
+}

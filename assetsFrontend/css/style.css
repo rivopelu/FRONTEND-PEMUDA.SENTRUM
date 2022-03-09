@@ -1,0 +1,270 @@
+@import url(variable.css);
+.navbar{
+    position: fixed;
+    width: 100vw;
+    z-index: 1000;
+    transition: all .2s;
+    
+    
+  }
+nav {
+
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  justify-content: space-between;
+  z-index: 1000;
+  
+  height: 45px;
+  padding: 0 20px;
+
+}
+
+.nav-color{
+    background: linear-gradient(to right,  #9958d6, #69289f);
+    box-shadow: var(--shadow-standart);
+}
+
+nav i {
+  color: white;
+}
+.nav_logo {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: white;
+}
+
+.nav_logo img {
+  border-radius: 50%;
+  width: 35px;
+}
+
+.nav__kanan {
+  display: flex;
+  flex-direction: column-reverse;
+  position: absolute;
+  background: linear-gradient(to right, #69289f, #8d46cf);
+  top: 43px;
+  width: 100vw;
+  align-items: flex-start;
+  left: 0;
+  padding-top: 10px;
+  z-index: -1000;
+  padding: 0 20px;
+  border-radius: 0 0 20px 20px;
+  box-shadow: var(--shadow-standart);
+  padding-bottom: 20px;
+  width: 100vw;
+  transform: translateY(-100vh);
+  transition: var(--transisi-2);
+}
+
+.nav__ujung .login {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  font-size: 0.8rem;
+  color: white;
+  background: var(--transparant-25);
+  padding: 5px 10px;
+  border-radius: 2px;
+  transition: var(--transisi-2);
+}
+.nav__list {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+.nav__list li a {
+  display: flex;
+  align-items: center;
+
+  color: white;
+  padding: 0.5rem 0.8rem;
+  height: 100%;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+  font-size: 13px;
+  text-align: start;
+}
+
+.nav__list li a:hover {
+  border-bottom: 3px solid white;
+  color: rgb(218, 218, 218);
+  transition: all 0.3s ease-in-out;
+}
+
+.nav__active {
+  background-color: var(--transparant-25);
+}
+
+.search {
+  background-color: var(--transparant-25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 6px;
+  border-radius: 3px;
+  color: white;
+  gap: 0.5rem;
+  width: fit-content;
+}
+
+.search input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: white;
+}
+::-webkit-input-placeholder {
+  color: rgb(182, 182, 182);
+}
+
+.search label {
+  cursor: pointer;
+}
+
+.search__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.enter__search {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: white;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.nav__kanan-active {
+  transform: translateY(0);
+}
+#navToggle {
+  display: flex;
+  color: white;
+  cursor: pointer;
+}
+
+.nav__ujung li .login:hover i {
+  transform: translateX(-5px);
+  transition: var(--transisi-2);
+}
+
+.nav__ujung {
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid white;
+  width: 100%;
+  padding-bottom: 10px;
+  gap: 0;
+}
+
+/* ------------->HOME SECTION <------------ */
+.home_section {
+  background: linear-gradient(#8c45ce, #a662eb);
+  color: white;
+}
+
+.main-home{
+    display: flex;
+    flex-direction: column;
+}
+
+.title-home {
+    gap: 1px;
+}
+
+.main-home .kiri .h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.main-home .kiri h4 {
+    font-size: 25px;
+}
+
+.main-home .kiri .home-btn{
+    width: fit-content;
+    margin: 10px 0;
+}
+.main-home .kiri .home-btn:hover{
+    transform: translateX(3px);
+    
+}
+
+.ayat {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+
+
+.ayat p {
+    font-size: 15px;
+    margin-bottom: 4px;
+    
+}
+
+.ayat .italic {
+    font-style: italic;
+    font-size: 12px;
+    
+}
+
+.main-home .kanan {
+    display: none;
+}
+
+
+
+.card-home .card {
+    
+    background-color: var(--transparant-70);
+    margin-bottom: 1rem;
+    
+    
+}
+
+.card-home a {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    gap: .7rem;
+}
+
+.card-home .card:hover {
+    transform: translateY(-5px);
+    transition:  .3s;
+    background-color: #200D32;
+    
+}
+
+.card-home a img{
+    width: 73px;
+    height: 65px;
+}
+
+
+.card-home a .text-card h1 {
+    font-size: 24px;
+}
+
+.card-home a .text-card p {
+    font-size: 12px;
+}

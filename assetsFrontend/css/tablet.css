@@ -1,0 +1,22 @@
+@import url(variable.css);
+@media only screen and (max-width: 840px) {
+    .nav__list{
+        
+        background: linear-gradient(to right, #69289f, #8d46cf);
+        position: absolute;
+        top: 0;
+        transform: translateY(-10vh);
+        transition: var(--transisi-2);
+    }
+
+    .nav__active{
+        transform: translateY(0);
+    }
+
+    #navToggle{
+        display: block;
+    }
+
+    
+    
+}
