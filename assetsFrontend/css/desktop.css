@@ -1,6 +1,6 @@
 @import url(variable.css);
 
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 1000px) {
   nav {
     padding: 0 80px;
     align-items: center;
@@ -48,18 +48,14 @@
     display: none;
   }
 
-  
-  
-  
   /* HOME-SECTION */
 
-  .main-home{
+  .main-home {
     flex-direction: row;
     padding-bottom: 3rem;
   }
 
   .main-home .kiri {
-    
     width: 50%;
   }
   .main-home .kanan {
@@ -70,16 +66,14 @@
 
   .main-home .kanan img {
     position: absolute;
-    width:30rem;
+    width: 30rem;
     overflow: hidden;
-    
   }
 
-
-  .main-home .kanan img:nth-child(1){
+  .main-home .kanan img:nth-child(1) {
     right: -5rem;
   }
-  .main-home .kanan img:nth-child(2){
+  .main-home .kanan img:nth-child(2) {
     top: 170px;
     right: 5rem;
   }
@@ -88,7 +82,7 @@
     font-size: 60px;
   }
 
-  .card-home{
+  .card-home {
     display: flex;
     /* background-color: red; */
     flex-wrap: wrap;
@@ -99,23 +93,27 @@
     width: 28vw;
   }
 
-  .bawah{
+  .bawah {
     align-items: center;
   }
   .bawah .sosmed {
     flex-direction: row;
     gap: 2rem;
   }
+
+  .list_footer .list_link {
+    width: 35%;
+  }
+  .list_footer .list_sosmed {
+    width: 15%;
+  }
   /* --------------------MEDIA QUERY------------ */
 }
 
-
-@media only screen and (min-width: 720px){
+@media only screen and (min-width: 720px) {
   .main-home {
     justify-content: center;
-    
   }
-
 
   /* FULL HD RESPONSIVE */
 }

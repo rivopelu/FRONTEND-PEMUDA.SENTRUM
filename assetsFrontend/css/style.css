@@ -235,6 +235,7 @@ nav i {
     
     background-color: var(--transparant-70);
     margin-bottom: 1rem;
+    transition: .3s;
     
     
 }
@@ -246,6 +247,7 @@ nav i {
     justify-content: center;
     padding: 10px 20px;
     gap: .7rem;
+    
 }
 
 .card-home .card:hover {
@@ -288,4 +290,82 @@ nav i {
   transform: translateY(3px);
   transition: var(--transisi-2);
   color: white;
+}
+
+
+
+
+
+
+/* FOOTER */
+footer {
+  background-color: #200D32;
+  padding: .7rem;
+}
+footer .footer_logo {
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  text-transform: uppercase;
+
+}
+
+.footer_logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.footer_logo .text span{
+  font-weight: bold;
+}
+
+footer .list_footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.list_footer .list_link,
+.list_footer .list_sosmed
+{
+  display: flex;
+  width: 100%;
+  padding: 10px 20px;
+  justify-content: space-between;
+  
+}
+
+.list_footer .list_sosmed
+ {
+  width: 40vw;
+}
+
+
+.list_footer .list_link a ,
+.list_footer .list_sosmed a {
+  color: rgb(185, 185, 185);
+  
+}
+
+.list_footer .list_link a:hover {
+  border-bottom: 1px solid;
+  color: white;
+}
+
+.list_footer .list_sosmed a:hover {
+  color: white;
+}
+
+footer .copyright {
+  text-align: center;
+  font-size: 12px;
+  color: #AEAEAE;
+}
+
+footer .copyright a {
+  color: #b14ea0;
 }
