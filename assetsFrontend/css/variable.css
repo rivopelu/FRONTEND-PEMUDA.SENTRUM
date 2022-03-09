@@ -76,7 +76,7 @@ section {
 /* *************BUTTON********* */
 
 .btn {
-  background-color: var(--transparant-25);
+  /* background-color: var(--transparant-25); */
   padding: 5px 15px;
   color: #fff;
   box-shadow: var(--shadow-standart);
@@ -86,9 +86,7 @@ section {
 
 }
 
-.btn:hover{
-  background-color: var(--transparant-50);
-}
+
 
 .card{
   

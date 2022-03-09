@@ -1,30 +1,26 @@
 @import url(variable.css);
-.navbar{
-    position: fixed;
-    width: 100vw;
-    z-index: 1000;
-    transition: all .2s;
-    
-    
-  }
+.navbar {
+  position: fixed;
+  width: 100vw;
+  z-index: 1000;
+  transition: all 0.2s;
+}
 nav {
-
-
   display: flex;
   align-items: center;
   justify-content: space-between;
 
   justify-content: space-between;
   z-index: 1000;
-  
+
   height: 45px;
   padding: 0 20px;
-
+  background-color: var(--transparant-25);
 }
 
-.nav-color{
-    background: linear-gradient(to right,  #9958d6, #69289f);
-    box-shadow: var(--shadow-standart);
+.nav-color {
+  background: linear-gradient(to right, #9958d6, #69289f);
+  box-shadow: var(--shadow-standart);
 }
 
 nav i {
@@ -175,132 +171,113 @@ nav i {
   color: white;
 }
 
-.main-home{
-    display: flex;
-    flex-direction: column;
+.main-home {
+  display: flex;
+  flex-direction: column;
 }
 
 .title-home {
-    gap: 1px;
+  gap: 1px;
 }
 
 .main-home .kiri .h1 {
-    font-size: 35px;
-    text-transform: uppercase;
-    font-weight: 600;
-    padding: 0;
-    margin: 0;
-    
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
 }
 
 .main-home .kiri h4 {
-    font-size: 25px;
+  font-size: 25px;
 }
 
-.main-home .kiri .home-btn{
-    width: fit-content;
-    margin: 10px 0;
+.main-home .kiri .home-btn {
+  width: fit-content;
+  margin: 10px 0;
 }
-.main-home .kiri .home-btn:hover{
-    transform: translateX(3px);
-    
+.main-home .kiri .home-btn:hover {
+  transform: translateX(3px);
 }
 
 .ayat {
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
-
-
 .ayat p {
-    font-size: 15px;
-    margin-bottom: 4px;
-    
+  font-size: 15px;
+  margin-bottom: 4px;
 }
 
 .ayat .italic {
-    font-style: italic;
-    font-size: 12px;
-    
+  font-style: italic;
+  font-size: 12px;
 }
 
 .main-home .kanan {
-    display: none;
+  display: none;
 }
 
-
-
 .card-home .card {
-    
-    background-color: var(--transparant-70);
-    margin-bottom: 1rem;
-    transition: .3s;
-    
-    
+  background-color: var(--transparant-70);
+  margin-bottom: 1rem;
+  transition: 0.3s;
 }
 
 .card-home a {
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 20px;
-    gap: .7rem;
-    
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  gap: 0.7rem;
 }
 
 .card-home .card:hover {
-    transform: translateY(-5px);
-    transition:  .3s;
-    background-color: #200D32;
-    
+  transform: translateY(-5px);
+  transition: 0.3s;
+  background-color: #200d32;
 }
 
-.card-home a img{
-    width: 73px;
-    height: 65px;
+.card-home a img {
+  width: 73px;
+  height: 65px;
 }
-
 
 .card-home a .text-card h1 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .card-home a .text-card p {
-    font-size: 12px;
+  font-size: 12px;
 }
 
-.bawah{
+.bawah {
   display: flex;
   flex-direction: column;
   margin-top: 1rem;
 }
 
-.sosmed{
+.sosmed {
   display: flex;
   flex-direction: column;
 }
-.sosmed a{
+.sosmed a {
   color: rgb(221, 221, 221);
   transition: var(--transisi-2);
 }
 
-.sosmed a:hover  {
+.sosmed a:hover {
   transform: translateY(3px);
   transition: var(--transisi-2);
   color: white;
 }
 
-
-
-
-
-
 /* FOOTER */
 footer {
-  background-color: #200D32;
-  padding: .7rem;
+  background-color: #200d32;
+  padding: 0.7rem;
 }
 footer .footer_logo {
   color: white;
@@ -308,7 +285,6 @@ footer .footer_logo {
   justify-content: center;
   gap: 10px;
   text-transform: uppercase;
-
 }
 
 .footer_logo img {
@@ -316,7 +292,7 @@ footer .footer_logo {
   height: 40px;
 }
 
-.footer_logo .text span{
+.footer_logo .text span {
   font-weight: bold;
 }
 
@@ -327,28 +303,21 @@ footer .list_footer {
   justify-content: center;
 }
 
-
-
 .list_footer .list_link,
-.list_footer .list_sosmed
-{
+.list_footer .list_sosmed {
   display: flex;
   width: 100%;
   padding: 10px 20px;
   justify-content: space-between;
-  
 }
 
-.list_footer .list_sosmed
- {
+.list_footer .list_sosmed {
   width: 40vw;
 }
 
-
-.list_footer .list_link a ,
+.list_footer .list_link a,
 .list_footer .list_sosmed a {
   color: rgb(185, 185, 185);
-  
 }
 
 .list_footer .list_link a:hover {
@@ -363,9 +332,139 @@ footer .list_footer {
 footer .copyright {
   text-align: center;
   font-size: 12px;
-  color: #AEAEAE;
+  color: #aeaeae;
 }
 
 footer .copyright a {
   color: #b14ea0;
+}
+
+/* INFORMASI SECTION */
+
+.title_section {
+  margin-bottom: 0.5rem;
+}
+
+.title_info {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: left;
+  text-transform: uppercase;
+  color: black;
+}
+
+.title_info span {
+  color: #7a36b6;
+  font-weight: 600;
+}
+
+.title_section p {
+  font-weight: 300;
+  font-size: 15px;
+  text-align: left;
+  color: #000;
+}
+
+.content_info {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+}
+
+.info_card {
+  width: 100%;
+  height: 202px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.info_card .opa {
+  background-color: var(--transparant-25);
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem;
+  color: white;
+}
+
+.info_card .opa .judul_terbaru {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: left;
+  color: #fff;
+}
+
+.info_card .opa {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info_card .opa .bawah {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info_card .opa .bawah > p {
+  font-size: 12px;
+  font-style: italic;
+  padding-right: 20px;
+}
+
+.btn_card_info {
+  background: #200d32;
+  font-size: 12px;
+}
+.btn_card_info:hover {
+  background: #340e57;
+}
+
+/* content informasi  */
+
+.card_lainnya{
+  padding: 7px;
+  height: fit-content;
+  margin-bottom: 10px;
+}
+
+.card_lainnya img {
+  width: 100%;
+  height: 180px;
+  
+  border-radius: 10px;
+  /* background: url(...); */
+  /* box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16); */
+}
+
+
+.card_lainnya .judul {
+  font-weight: 600;
+  font-size: 17px;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.card_lainnya .excerpt {
+  font-size: 14px;
+  color: gray;
+  min-height: 100px;
+  
+  overflow-y: hidden;
+}
+
+
+
+.card_lainnya  .bawah {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card_lainnya .bawah > p {
+  font-size: 12px;
+  font-style: italic;
+  padding-right: 20px;
 }
