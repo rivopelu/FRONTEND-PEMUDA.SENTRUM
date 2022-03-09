@@ -268,3 +268,24 @@ nav i {
 .card-home a .text-card p {
     font-size: 12px;
 }
+
+.bawah{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.sosmed{
+  display: flex;
+  flex-direction: column;
+}
+.sosmed a{
+  color: rgb(221, 221, 221);
+  transition: var(--transisi-2);
+}
+
+.sosmed a:hover  {
+  transform: translateY(3px);
+  transition: var(--transisi-2);
+  color: white;
+}

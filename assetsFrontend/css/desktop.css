@@ -99,6 +99,13 @@
     width: 28vw;
   }
 
+  .bawah{
+    align-items: center;
+  }
+  .bawah .sosmed {
+    flex-direction: row;
+    gap: 2rem;
+  }
   /* --------------------MEDIA QUERY------------ */
 }
 
